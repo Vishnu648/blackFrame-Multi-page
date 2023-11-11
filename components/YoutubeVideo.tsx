@@ -30,7 +30,7 @@ export default function YoutubeVideo() {
   return (
     <div
       style={{ fontFamily: "MyCustomFont" }}
-      className="w-full h-[800px] pt-44 md:p-3 flex items-center"
+      className="w-full pt-20 md:p-3 flex items-center"
     >
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 content-between p-6">
         <div
@@ -67,7 +67,7 @@ export default function YoutubeVideo() {
                   <img
                     src={usr.img}
                     alt={usr.userName}
-                    className="h-12 w-12 rounded-full"
+                    className=" w-12 rounded-full"
                   />
                   <h2>{usr.userName}</h2>
                 </div>
