@@ -2,43 +2,39 @@ import Link from "next/link";
 
 export default function CopyRight() {
   return (
-    <div className="h-[80vh] w-full bg-[#e9ecef] flex justify-center text-black p-6">
-      <div className="w-full mx-auto p-6 rounded-md shadow-md flex flex-col justify-between">
-        <table
-          style={{ borderStyle: "none", textAlign: "left" }}
-          className="w-full table-auto"
+    // <div className="w-full bg-[#e9ecef] flex justify-center text-black p-6">
+      <div className="w-full rounded-md shadow-md flex flex-col justify-between bg-[#e9ecef] text-black p-6">
+        <div
+          className="grid grid-cols-1 lg:grid-cols-3 mb-32"
+          style={{ fontFamily: "myIphoneFont" }}
         >
-          <thead>
-            <tr>
-              <th className="flex items-center" style={{ width: "100%" }}>
-                <p
-                  style={{
-                    fontFamily: "myCustomFont",
-                    letterSpacing: "3px",
-                    fontSize: "30px",
-                  }}
-                >
-                  BLACKFRAME PICTURES
-                </p>
-              </th>
-              <th className="py-2" style={{ textAlign: "center" }}>
-                CONTENT
-              </th>
-              <th className="py-2">CONNECT WITH US</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="py-2" style={{ fontFamily: "myIphoneFont" }}>
-                "Experience cinematic excellence with our video production team.
-                From concept to final cut, we specialize in bringing your vision
-                to life. Our talented team ensures top-notch quality,
-                creativity, and innovation in every frame. Elevate your brand
-                with compelling visuals – choose us for unparalleled video
-                production expertise."
-              </td>
-              <td style={{ textAlign: "center" }}>Tutorial</td>
-              <td className="flex  items-center gap-2">
+          <div className="py-2">
+            <p
+              style={{
+                fontFamily: "myCustomFont",
+                letterSpacing: "3px",
+                fontSize: "30px",
+              }}
+            >
+              BLACKFRAME PICTURES
+            </p>
+            <p style={{ fontFamily: "myIphoneFont" }}>
+              "Experience cinematic excellence with our video production team.
+              From concept to final cut, we specialize in bringing your vision
+              to life. Our talented team ensures top-notch quality, creativity,
+              and innovation in every frame. Elevate your brand with compelling
+              visuals - choose us for unparalleled video production expertise."
+            </p>
+          </div>
+          <div className="py-2">
+            <h2 className="py-2 font-semibold lg:text-center">
+              CONTENT
+            </h2>
+            <p className="lg:text-center">tutorial</p>
+          </div>
+          <div>
+            <h2 className="py-2 font-semibold">CONNECT WITH US</h2>
+            <div className="flex items-center">
                 <a
                   href="https://www.youtube.com/channel/UCsSBb9aWfTzKWSH_Jw3BHww"
                   target="_blank"
@@ -67,20 +63,14 @@ export default function CopyRight() {
                     }}
                   />
                 </a>
-              </td>
-            </tr>
-            <tr>
-              <td className="py-2"></td>
-              <td className="py-2"></td>
-              <td className="py-2"></td>
-            </tr>
-          </tbody>
-        </table>
-        <div className="flex justify-between">
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row justify-between">
           <p>© 2023 vishnu. All rights reserved.</p>
-          <Link href='/terms'>terms and conditions</Link>
+          <Link href="/terms">terms and conditions</Link>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }

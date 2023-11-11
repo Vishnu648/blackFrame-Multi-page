@@ -2,7 +2,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="flex flex-col bg-[#e9ecef] p-6 h-screen w-full">
+    <div className="flex flex-col bg-[#e9ecef] p-6 w-full">
       <h1 style={{ fontFamily: "myCustomFont" }} className="text-5xl">
         Terms and conditions{" "}
       </h1>
@@ -24,7 +24,6 @@ export default function page() {
         <h2 className="text-xl font-semibold">What you can expect from us:</h2>
         <ul>
           <li>
-            {" "}
             We will complete your work to the deadline we've agreed with you.
           </li>
           <li>
@@ -48,7 +47,7 @@ export default function page() {
           Please let us know of any special instructions prior to us starting
           the work, including:
         </p>
-        <ul typeof="none">
+        <ul>
           <li> Your deadlines.</li>
           <li> Preferred formatting or styles.</li>
           <li>Any special requirements.</li>
@@ -88,11 +87,7 @@ export default function page() {
             and is the price you agree to pay to us to edit your work.
           </li>
           <li>
-            Our fee for editing your work will be as stated to you from us. • We
-            will endeavor to meet the prices shown on our website quote from. In
-            some unsuual circumstances, we may need to charge more than the
-            amount shown. We will always confirm the final price to you and will
-            only start work once we have your agreement.
+            Our fee for editing your work will be as stated to you from us.
           </li>
           <li>
             We will endeavor to meet the prices shown on our website quote from.
@@ -102,8 +97,7 @@ export default function page() {
           </li>
           <li>
             Quotes are valid for a period of seven days after you receive them
-            via our website or in a separate email from us. • The price quoted
-            for services also includes editorial support, advice, and aftercare
+            via our website or in a separate email from us.
           </li>
           <li>
             The price quoted for services also includes editorial support,
