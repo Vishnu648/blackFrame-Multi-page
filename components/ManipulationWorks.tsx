@@ -42,7 +42,7 @@ export default function ManipulationWorks() {
           return(
              <div
              key={i}
-            className="h-[380px] w-[300px] bg-gray-600 rounded-xl bg- flex justify-center gap-2 border border-black"
+            className="md:h-[380px] md:w-[300px] h-[280px] w-[200px] bg-gray-600 rounded-xl bg- flex justify-center gap-2 border border-black"
             style={{ flex: "0 0 auto" }}
           >
             <img
