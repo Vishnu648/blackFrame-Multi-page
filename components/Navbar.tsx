@@ -10,7 +10,7 @@ export default function Navbar() {
               className="w-[120px] flex items-center justify-center mt-[20px] text-left"
             />
 
-            <nav style={{fontFamily:'MyIphoneFont',letterSpacing:1,width:'55%'}} className="hidden lg:flex justify-center font-semibold gap-10 text-2xl w-2/3">
+            <nav style={{fontFamily:'MyIphoneFont',letterSpacing:1,width:'58%'}} className="hidden lg:flex justify-center font-semibold gap-10 text-lg">
               <Link href='/whatWeDo'>What we do</Link>
               <Link href='/pricing'>Price</Link>
               <Link href='/editing'>Editing</Link>
@@ -19,7 +19,7 @@ export default function Navbar() {
               <Link href='/preset'>Sound Effects</Link>
             </nav>
 
-            <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont'}} className="text-4xl md:text-5xl">BLACKFRAME PICTURES</h2>
+            <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-4xl md:text-5xl">BLACKFRAME PICTURES</h2>
     </nav>
   )
 }

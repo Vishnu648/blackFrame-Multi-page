@@ -45,7 +45,7 @@ const images=[
 export default function ColorGrading() {
   return (
     <div style={{fontFamily:'MyCustomFont'}} className="w-full p-6 border-2 ">
-      <h1 className="text-5xl mb-6">COLOR GRADING (DI) </h1>
+      <h1 className="text-4xl md:text-5xl mb-6">COLOR GRADING (DI) </h1>
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10 content-between p-6">
         {
           images.map((img,i) => {

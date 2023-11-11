@@ -30,7 +30,7 @@ const manipulationImg=[
 export default function ManipulationWorks() {
   return (
     <div style={{fontFamily:'MyCustomFont',letterSpacing:'2px'}} className=" w-full p-6 ">
-      <h1 className="text-5xl">Manipulation Works </h1>
+      <h1 className="text-4xl md:text-5xl">Manipulation Works </h1>
 
       <div
         className="h-[480px] w-full overflow-x-scroll rounded-xl flex items-center gap-2 pl-[260px] justify-around mt-6"
@@ -42,7 +42,7 @@ export default function ManipulationWorks() {
           return(
              <div
              key={i}
-            className="h-[380px] w-[300px] bg-gray-600 rounded-xl bg- flex justify-around gap-2 border border-black"
+            className="h-[380px] w-[300px] bg-gray-600 rounded-xl bg- flex justify-center gap-2 border border-black"
             style={{ flex: "0 0 auto" }}
           >
             <img

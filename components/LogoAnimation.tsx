@@ -15,7 +15,7 @@ export default function LogoAnimation() {
       style={{ fontFamily: "MyCustomFont" }}
       className="w-full p-6 "
     >
-      <h1 className="text-5xl mb-6">LOGO ANIMATION </h1>
+      <h1 className="text-4xl md:text-5xl mb-6">LOGO ANIMATION </h1>
       <div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-10 content-between p-6">
         {animatedVideos.map((anim, i) => {
           return (

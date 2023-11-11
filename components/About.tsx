@@ -16,7 +16,7 @@ export default function About() {
           className=" rounded-md flex flex-col justify-center"
           style={{ aspectRatio: "16/9" }}
         >
-          <h1 className="text-5xl mb-6">SOFTWARE WE USE </h1>
+          <h1 className="text-4xl md:text-5xl mb-6">SOFTWARE WE USE </h1>
           <div className="flex h-12 gap-2 object-contain">
             {icons.map((icon,i) => {
               return (

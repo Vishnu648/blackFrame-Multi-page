@@ -78,7 +78,7 @@ export default function CopyRight() {
         </table>
         <div className="flex justify-between">
           <p>© 2023 vishnu. All rights reserved.</p>
-          <Link href='/terms'>terms</Link>
+          <Link href='/terms'>terms and conditions</Link>
         </div>
       </div>
     </div>
