@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MenuButton from "./MenuButton"
 
 export default function Navbar() {
   return (
@@ -20,6 +21,9 @@ export default function Navbar() {
             </nav>
 
             <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-[21px] md:text-4xl lg:5xl">BLACKFRAME PICTURES</h2>
+            <div className="lg:hidden">
+              <MenuButton/>
+            </div>
     </nav>
   )
 }
