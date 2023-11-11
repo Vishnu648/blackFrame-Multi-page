@@ -54,7 +54,7 @@ export default function YoutubeVideo() {
           className=" rounded-md flex flex-col p-5"
           style={{ aspectRatio: "16/9" }}
         >
-          <h1 className="text-5xl mb-6">LEO - Lokiverse 2.0 Theme Video </h1>
+          <h1 className="text-4xl md:text-5xl mb-6">LEO - Lokiverse 2.0 Theme Video </h1>
 
           {user.map((usr) => {
             return (
