@@ -45,13 +45,14 @@ export default function ManipulationWorks() {
             className="md:h-[380px] md:w-[300px] h-[280px] w-[200px] bg-gray-600 rounded-xl bg- flex justify-center gap-2 border border-black"
             style={{ flex: "0 0 auto" }}
           >
-            <img
+            <Image
               src={img}
               alt="ds"
-              height={"100%"}
-              width={"100%"}
+              height={500}
+              width={300}
+              loading="lazy"
               style={{ flex: "0 0 auto" }}
-              className="popup rounded-xl object-cover"
+              className="popup rounded-xl object-cover h-full w-full"
             />
           </div>
           )

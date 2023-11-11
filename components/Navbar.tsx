@@ -11,15 +11,15 @@ export default function Navbar() {
             />
 
             <nav style={{fontFamily:'MyIphoneFont',letterSpacing:1,width:'58%'}} className="hidden lg:flex justify-center font-semibold gap-10 text-lg">
-              <Link href='/whatWeDo'>What we do</Link>
-              <Link href='/pricing'>Price</Link>
-              <Link href='/editing'>Editing</Link>
-              <Link href='/preset'>Presets</Link>
-              <Link href='/preset'>Assets</Link>
-              <Link href='/preset'>Sound Effects</Link>
+              <Link className="hover:text-gray-500" href='/whatWeDo'>What we do</Link>
+              <Link className="hover:text-gray-500" href='/pricing'>Price</Link>
+              <Link className="hover:text-gray-500" href='/editing'>Editing</Link>
+              <Link className="hover:text-gray-500" href='/preset'>Presets</Link>
+              <Link className="hover:text-gray-500" href='/preset'>Assets</Link>
+              <Link className="hover:text-gray-500" href='/preset'>Sound Effects</Link>
             </nav>
 
-            <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-[21px] md:text-5xl">BLACKFRAME PICTURES</h2>
+            <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-[21px] md:text-4xl lg:5xl">BLACKFRAME PICTURES</h2>
     </nav>
   )
 }
