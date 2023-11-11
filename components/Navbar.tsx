@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="h-[80px] mt-4 w-full flex justify-between items-center pr-6 text-4xl bg-white text-[#2a2a2a]">
+    <nav className="h-[70px] mt-4 w-full flex justify-between items-center pr-6 bg-white text-[#2a2a2a]">
          <img
               src="/onlyLogo.png"
               alt="Logo"
@@ -19,7 +19,7 @@ export default function Navbar() {
               <Link href='/preset'>Sound Effects</Link>
             </nav>
 
-            <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-4xl md:text-5xl">BLACKFRAME PICTURES</h2>
+            <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-[21px] md:text-5xl">BLACKFRAME PICTURES</h2>
     </nav>
   )
 }
