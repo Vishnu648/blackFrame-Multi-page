@@ -21,7 +21,7 @@ const user=[
     },
     {
         img:'/user.png',
-        userName:'mtGuyzz',
+        userName:'@mtGuyzz',
         comment:'Underrated edit',
     },
 ]
@@ -60,7 +60,7 @@ export default function YoutubeVideo() {
             {
                 user.map((usr) => {
                   return(
-                   <div className="h-24 items-center gird "  style={{ fontFamily: "MyIphoneFont" }}>
+                   <div className="h-24 items-center gird " key={usr.userName} style={{ fontFamily: "MyIphoneFont" }}>
                         <img src={usr.img} alt={usr.userName} className="h-12 w-12 rounded-full"/>
                         <h2>{usr.userName}</h2>
                         <p>{usr.comment}</p>

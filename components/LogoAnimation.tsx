@@ -17,13 +17,20 @@ export default function LogoAnimation() {
     >
       <h1 className="text-5xl mb-6">LOGO ANIMATION </h1>
       <div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-10 content-between p-6">
-        {animatedVideos.map((anim) => {
+        {animatedVideos.map((anim, i) => {
           return (
             <div
+              key={i}
               className="bg-gray-600 rounded-md"
               style={{ aspectRatio: "16/9" }}
             >
-                <video src={anim} className="rounded-2xl w-screen" autoPlay muted loop />
+              <video
+                src={anim}
+                className="rounded-2xl w-screen"
+                autoPlay
+                muted
+                loop
+              />
             </div>
           );
         })}

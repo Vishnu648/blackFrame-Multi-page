@@ -1,10 +1,10 @@
+"use client"
 import React from "react";
 import { ImgComparisonSlider } from "@acf-comparison-slider/react";
 
-// Define the prop types using TypeScript
 interface MyComponentProps {
-  logImg: string; // Fix: Add type for logImg
-  clrdImg: string; // Fix: Add type for clrdImg
+  logImg: string; 
+  clrdImg: string; 
 }
 
 const MyComponent: React.FC<MyComponentProps> = ({ logImg, clrdImg }) => {

@@ -48,8 +48,8 @@ export default function ColorGrading() {
       <h1 className="text-5xl mb-6">COLOR GRADING (DI) </h1>
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10 content-between p-6">
         {
-          images.map((img) => {
-            return (<div className="bg-gray-600 rounded-md" style={{aspectRatio:'16/9'}}>
+          images.map((img,i) => {
+            return (<div key={i} className="bg-gray-600 rounded-md" style={{aspectRatio:'16/9'}}>
             <CompareImg logImg={img.logI} clrdImg={img.clrdI}/>
           </div>)
           }

@@ -18,10 +18,11 @@ export default function About() {
         >
           <h1 className="text-5xl mb-6">SOFTWARE WE USE </h1>
           <div className="flex h-12 gap-2 object-contain">
-            {icons.map((icon) => {
+            {icons.map((icon,i) => {
               return (
                 <img
                   alt="icons"
+                  key={i}
                   style={{ height: "100%", width: "45px", borderRadius: "6px" }}
                   src={icon}
                 />

@@ -38,10 +38,11 @@ export default function ManipulationWorks() {
       >
       
       {
-        manipulationImg.map((img) => {
+        manipulationImg.map((img,i) => {
           return(
              <div
-            className="h-[380px] w-[300px] rounded-xl flex justify-around gap-2 border border-black"
+             key={i}
+            className="h-[380px] w-[300px] bg-gray-600 rounded-xl bg- flex justify-around gap-2 border border-black"
             style={{ flex: "0 0 auto" }}
           >
             <img
