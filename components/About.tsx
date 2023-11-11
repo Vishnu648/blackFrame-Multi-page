@@ -23,7 +23,7 @@ export default function About() {
                 <img
                   alt="icons"
                   key={i}
-                  style={{ height: "100%", width: "45px", borderRadius: "6px" }}
+                  className="h-[90%] sm:h-full w-8 sm:w-[45px] rounded-md"
                   src={icon}
                 />
               );
