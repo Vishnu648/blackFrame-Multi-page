@@ -42,3 +42,9 @@ body {
   transform: scale(1.08);
 }
 
+table, th, td {
+  width:33%;
+}
+td{
+  margin: 20px;
+}
