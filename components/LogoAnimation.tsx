@@ -24,7 +24,7 @@ export default function LogoAnimation() {
             <div
               key={i}
               className="bg-gray-600 rounded-xl"
-              style={{ aspectRatio: "16/9" }}
+              style={{ aspectRatio: "16/9",objectFit:'contain' }}
             >
             <AnimationVideos anim={anim}/>
             </div>
