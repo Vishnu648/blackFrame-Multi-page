@@ -17,13 +17,13 @@ export default function About() {
           style={{ aspectRatio: "16/9" }}
         >
           <h1 className="text-4xl md:text-5xl mb-6">SOFTWARE WE USE </h1>
-          <div className="flex h-12 gap-2 object-contain">
+          <div className="flex h-12 gap-1 md:gap-2 object-contain">
             {icons.map((icon,i) => {
               return (
                 <img
                   alt="icons"
                   key={i}
-                  className="h-[90%] sm:h-full w-9 sm:w-[45px] rounded-md"
+                  className="h-[80%] sm:h-full w-9 sm:w-[45px] rounded-md"
                   src={icon}
                 />
               );
