@@ -1,3 +1,5 @@
+import AnimationVideos from "./AnimationVideos";
+
 const animatedVideos = [
   "/logoanimation/filmlust.mp4",
   "/logoanimation/logovr1.mp4",
@@ -24,13 +26,7 @@ export default function LogoAnimation() {
               className="bg-gray-600 rounded-md"
               style={{ aspectRatio: "16/9" }}
             >
-              <video
-                src={anim}
-                className="rounded-2xl w-screen"
-                autoPlay
-                muted
-                loop
-              />
+            <AnimationVideos anim={anim}/>
             </div>
           );
         })}
