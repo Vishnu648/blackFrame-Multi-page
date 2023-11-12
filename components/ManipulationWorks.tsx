@@ -36,14 +36,12 @@ export default function ManipulationWorks() {
           {
             manipulationImg.map((img,i) => {
               return(
-                <img className="snap-center popup bg-[#2a2a2a] md:h-[380px] md:w-[300px] border rounded-xl h-[280px] w-[200px]" src={img} alt="image" key={i}/>
+                <img className="snap-center popup bg-[#2a2a2a] md:h-[380px] md:w-[300px] border rounded-xl h-[280px] w-[200px]" src={img} alt="image" loading="lazy" key={i}/>
               )
             }
             )
           }
       </div>
-
-
     </div>
   );
 }

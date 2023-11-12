@@ -2,9 +2,9 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="flex flex-col bg-[#e9ecef] p-6 w-full">
+    <div className="flex flex-col bg-[#e9ecef] p-6 lg:p-10 w-full">
       <h1 style={{ fontFamily: "myCustomFont" }} className="text-5xl">
-        Terms and conditions{" "}
+        Terms and conditions
       </h1>
       <p
             style={{ fontFamily: "myIphoneFont", lineHeight: "20px" }}
@@ -22,7 +22,7 @@ export default function page() {
         className="text-lg w-full md:w-[50vw]"
       >
         <h2 className="text-xl font-semibold">What you can expect from us:</h2>
-        <ul>
+        <ul className="list-disc">
           <li>
             We will complete your work to the deadline we've agreed with you.
           </li>
@@ -47,7 +47,7 @@ export default function page() {
           Please let us know of any special instructions prior to us starting
           the work, including:
         </p>
-        <ul>
+        <ul className="list-disc">
           <li> Your deadlines.</li>
           <li> Preferred formatting or styles.</li>
           <li>Any special requirements.</li>
@@ -69,7 +69,7 @@ export default function page() {
             work.
           </li>
           <li>
-            {" "}
+            
             If you have questions about any aspects of your work or what we can
             do for you, please ask.
           </li>
@@ -79,7 +79,7 @@ export default function page() {
       <div style={{ fontFamily: "myIphoneFont", lineHeight: "20px" }}
         className="text-lg w-full md:w-[50vw]">
         <h2 className="text-xl font-semibold">Payment and prices</h2>
-        <ul typeof="none">
+        <ul className="list-disc">
           <li>
             Our prices do vary from time to time, and for limited periods we may
             offer additional discounts on our rates for new or existing clients;
@@ -122,8 +122,6 @@ export default function page() {
             For late payment, we may levy additional interest charges and fees,
             at our discretion.
           </li>
-          <li></li>
-          <li></li>
         </ul>
       </div>
 
@@ -132,7 +130,7 @@ export default function page() {
         <h2 className="text-xl font-semibold">
           Modifications of terms and conditions:
         </h2>
-        <ul typeof="none">
+        <ul className="list-disc">
           <li>
             These terms and conditions may be modified, amended, reorganized,
             rewritten, or revoked at any time, for any reason and without
