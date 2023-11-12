@@ -32,11 +32,11 @@ export default function ManipulationWorks() {
     <div style={{fontFamily:'MyCustomFont',letterSpacing:'2px'}} className="border w-full p-6 ">
       <h1 className="text-4xl md:text-5xl">Manipulation Works </h1>
 
-      <div className="w-full rounded-md flex gap-2 overflow-auto whitespace-nowrap p-6">
+      <div className="snap-x w-full rounded-md flex gap-2 overflow-auto whitespace-nowrap p-6">
           {
             manipulationImg.map((img,i) => {
               return(
-                <img className="popup bg-[#2a2a2a] md:h-[380px] md:w-[300px] border rounded-xl h-[280px] w-[200px]" src={img} alt="image" key={i}/>
+                <img className="snap-center popup bg-[#2a2a2a] md:h-[380px] md:w-[300px] border rounded-xl h-[280px] w-[200px]" src={img} alt="image" key={i}/>
               )
             }
             )
