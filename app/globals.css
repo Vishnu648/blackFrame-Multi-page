@@ -48,3 +48,21 @@ table, th, td {
 td{
   margin: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2a2a2a;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000;
+}

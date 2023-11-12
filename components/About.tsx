@@ -37,8 +37,9 @@ export default function About() {
         >
              <img
                   alt="time line"
-                  style={{ height: "100%", width: "100%", borderRadius: "6px" }}
+                  style={{ height: "100%", width: "100%", borderRadius: "6px",backgroundColor:"#2a2a2a" }}
                   src='/timeLine.jpg'
+                  loading="lazy"
                 />
         </div>
       </div>
