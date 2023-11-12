@@ -14,13 +14,13 @@ const MyComponent: React.FC<MyComponentProps> = ({ logImg, clrdImg }) => {
         <img
           slot="first"
           alt="first"
-          style={{ height: '100%', width: '100%', borderRadius: '6px' }}
+          style={{ height: '100%', width: '100%', borderRadius: '6px',backgroundColor:'#2a2a2a' }}
           src={logImg}
         />
         <img
           slot="second"
           alt="second"
-          style={{ height: '100%', width: '100%', borderRadius: '6px' }}
+          style={{ height: '100%', width: '100%', borderRadius: '6px',backgroundColor:'#000' }}
           src={clrdImg}
         />
       </ImgComparisonSlider>
