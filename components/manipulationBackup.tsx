@@ -29,21 +29,39 @@ const manipulationImg=[
 
 export default function ManipulationWorks() {
   return (
-    <div style={{fontFamily:'MyCustomFont',letterSpacing:'2px'}} className="border w-full p-6 ">
+    <div style={{fontFamily:'MyCustomFont',letterSpacing:'2px'}} className=" w-full p-6 ">
       <h1 className="text-4xl md:text-5xl">Manipulation Works </h1>
 
-      <div className="w-full rounded-md flex gap-2 overflow-auto whitespace-nowrap p-6">
-          {
-            manipulationImg.map((img,i) => {
-              return(
-                <img className="popup bg-[#2a2a2a] md:h-[380px] md:w-[300px] border rounded-xl h-[280px] w-[200px]" src={img} alt="image" key={i}/>
-              )
-            }
-            )
-          }
+      <div
+        className="h-[480px] w-full overflow-x-scroll rounded-xl flex items-center gap-2 pl-[260px] justify-around mt-6"
+        style={{ flex: "0 0 auto" }}
+      >
+      
+      {
+        manipulationImg.map((img,i) => {
+          return(
+             <div
+             key={i}
+            className="md:h-[380px] md:w-[300px] h-[280px] w-[200px] bg-gray-600 rounded-xl bg- flex justify-center gap-2 border border-black"
+            style={{ flex: "0 0 auto" }}
+          >
+            <Image
+              src={img}
+              alt="ds"
+              height={500}
+              width={300}
+              loading="lazy"
+              style={{ flex: "0 0 auto" }}
+              className="popup rounded-xl object-cover h-full w-full"
+            />
+          </div>
+          )
+        }
+        )
+      }
+
+         
       </div>
-
-
     </div>
   );
 }
