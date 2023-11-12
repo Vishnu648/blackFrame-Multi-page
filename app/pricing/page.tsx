@@ -2,7 +2,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="flex flex-col text-[#2a2a2a] bg-[#e9ecef] w-full">
+    <div className="flex flex-col text-[#2a2a2a] h-[110vh] bg-[#e9ecef] w-full">
       <div className="w-full md:w-[50vw]">
       <div className="flex items-center ">
       <img
