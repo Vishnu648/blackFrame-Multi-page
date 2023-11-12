@@ -6,10 +6,13 @@ interface MyComponentProps {
 }
 
 const AnimationVideos: React.FC<MyComponentProps> = ({ anim }) => {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   const playVideo = () => {
     if (videoRef.current) {
+      // Set the currentTime to 2 seconds
+      videoRef.current.currentTime = 1/4;
+
       // Check if the video is already playing
       if (videoRef.current.paused) {
         videoRef.current.play();
