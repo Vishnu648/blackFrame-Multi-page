@@ -27,7 +27,7 @@ const AnimationVideos: React.FC<MyComponentProps> = ({ anim }) => {
       <video
         ref={videoRef}
         src={anim}
-        className="rounded-2xl w-screen"
+        className="rounded-xl w-screen"
         title="Play/Pause"
         muted
         loop
