@@ -1,45 +1,37 @@
 "use client";
 import Link from "next/link";
-import * as React from 'react';
-import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import { AiOutlineMenu } from 'react-icons/ai';
+import * as React from "react";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const options = [
- {
-  link:'/whatWeDo',
-  name:'What we do'
- },
- {
-  link:'/pricing',
-  name:'Pricing'
- },
- {
-  link:'/editing',
-  name:'Editing'
- },
- {
-  link:'/preset',
-  name:'Presets'
- },
- {
-  link:'/preset',
-  name:'Assets'
- },
- {
-  link:'/preset',
-  name:'Sound Effects'
- },
- 
+  {
+    link: "/whatWeDo",
+    name: "What we do",
+  },
+  {
+    link: "/pricing",
+    name: "Pricing",
+  },
+  {
+    link: "/editing",
+    name: "Editing",
+  },
+  {
+    link: "/preset",
+    name: "Presets",
+  },
+  {
+    link: "/preset",
+    name: "Assets",
+  },
+  {
+    link: "/preset",
+    name: "Sound Effects",
+  },
 ];
-
-
-
-
-
-
-
 
 const ITEM_HEIGHT = 48;
 
@@ -58,8 +50,8 @@ export default function LongMenu() {
       <IconButton
         aria-label="more"
         id="long-button"
-        aria-controls={open ? 'long-menu' : undefined}
-        aria-expanded={open ? 'true' : undefined}
+        aria-controls={open ? "long-menu" : undefined}
+        aria-expanded={open ? "true" : undefined}
         aria-haspopup="true"
         onClick={handleClick}
       >
@@ -68,7 +60,7 @@ export default function LongMenu() {
       <Menu
         id="long-menu"
         MenuListProps={{
-          'aria-labelledby': 'long-button',
+          "aria-labelledby": "long-button",
         }}
         anchorEl={anchorEl}
         open={open}
@@ -76,16 +68,18 @@ export default function LongMenu() {
         PaperProps={{
           style: {
             maxHeight: ITEM_HEIGHT * 4.5,
-            width: '20ch',
+            width: "20ch",
           },
         }}
       >
         {options.map((option) => (
-          <MenuItem key={option.name} selected={option.name === 'Pricing'} onClick={handleClose}>
-            <Link href={option.link}>
-            {option.name}
-            </Link>
-          </MenuItem>
+          <Link href={option.link} key={option.name}>
+            <MenuItem
+              onClick={handleClose}
+            >
+              {option.name}
+            </MenuItem>
+          </Link>
         ))}
       </Menu>
     </div>
