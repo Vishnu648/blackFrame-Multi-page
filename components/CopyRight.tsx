@@ -66,7 +66,7 @@ export default function CopyRight() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between">
+        <div className="flex flex-col-reverse lg:flex-row justify-between">
           <p>© 2023 vishnu. All rights reserved.</p>
           <Link href="/terms">terms & conditions</Link>
         </div>
