@@ -37,10 +37,13 @@ body {
   background:white;
 }
 
-.popup:hover{
-  transition: all 0.4s;
-  transform: scale(1.08);
+@media screen and (min-width: 1280px) {
+  .popup:hover {
+    transition: all 0.4s;
+    transform: scale(1.08);
+  }
 }
+
 
 table, th, td {
   width:33%;
