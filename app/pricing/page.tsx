@@ -19,27 +19,27 @@ export default function page() {
 
       <div className="flex flex-col gap-4 text-2xl md:text-3xl p-6" style={{fontFamily:'myCustomFont'}}>
         <h2 className="underline">PRICING LIST</h2>
-        <div className="flex justify-between underline">
+        <div className="flex justify-between ">
           <h2>VIDEO 1:00 MINUTE OR LESS</h2>
           <h2>200RS</h2>
         </div>
-        <div className="flex justify-between underline">
+        <div className="flex justify-between ">
           <h2>VIDEO 1:00 - 2:59 MINUTES</h2>
           <h2>400RS</h2>
         </div>
-        <div className="flex justify-between underline">
+        <div className="flex justify-between ">
           <h2>VIDEO 3:00 - 5:00 MINUTES</h2>
           <h2>600RS</h2>
         </div>
-        <div className="flex justify-between underline">
+        <div className="flex justify-between ">
           <h2>VIDEO 5:00 - 10:00 MINUTES</h2>
           <h2>900RS</h2>
         </div>
-        <div className="flex justify-between underline">
+        <div className="flex justify-between ">
           <h2>VIDEO 10:00 - 30:00 MINUTES</h2>
           <h2>2000RS</h2>
         </div>
-        <div className="flex justify-between underline">
+        <div className="flex justify-between ">
           <h2>VIDEO 30:00 - 60:00 MINUTES</h2>
           <h2>4000RS</h2>
         </div>
