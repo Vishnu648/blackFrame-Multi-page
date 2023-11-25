@@ -29,7 +29,7 @@ export default function page() {
           </p>
         </div>
 
-        <div className="flex flex-col p-4 text-2xl md:text:3xl">
+        <div className="flex flex-col p-6 text-2xl md:text:3xl">
             <h2 className="underline">WHAT WE DO</h2>
             <ul className="list-disc">
               <li>SHORT MOVIE EDITING</li>
