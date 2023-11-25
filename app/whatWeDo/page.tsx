@@ -17,7 +17,7 @@ export default function page() {
           </h1>
         </div>
 
-        <div className="flex flex-col h-[16vh] text-2xl md:text-3xl justify-between items-center">
+        <div className="flex flex-col h-[13vh] text-2xl md:text-3xl justify-between items-center">
           <h1
             style={{ fontFamily: "myCustomFont" }}
             className=" underline"
