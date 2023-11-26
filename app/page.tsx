@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <main  className="flex relative min-h-screen flex-col justify-center items-center gap-6">
+    <main  className="flex absolute min-h-screen flex-col justify-center items-center gap-6">
       <Navbar />
       <Hero />
       <ManipulationWorks />
