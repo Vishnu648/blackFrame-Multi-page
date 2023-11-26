@@ -15,9 +15,9 @@ export default function Navbar() {
               <Link className="hover:text-gray-500" href='/whatWeDo'>What we do</Link>
               <Link className="hover:text-gray-500" href='/pricing'>Price</Link>
               <Link className="hover:text-gray-500" href='/editing'>Editing</Link>
-              <Link className="hover:text-gray-500" href='/preset'>Presets</Link>
-              <Link className="hover:text-gray-500" href='/preset'>Assets</Link>
-              <Link className="hover:text-gray-500" href='/preset'>Sound Effects</Link>
+              <Link className="hover:text-gray-500" href='/presets'>Presets</Link>
+              <Link className="hover:text-gray-500" href='/assets'>Assets</Link>
+              <Link className="hover:text-gray-500" href='/soundEffects'>Sound Effects</Link>
             </nav>
 
             <h2 style={{letterSpacing:'4px',fontFamily:'MyCustomFont',float:'right'}} className="text-[21px] md:text-4xl lg:5xl">BLACKFRAME PICTURES</h2>
