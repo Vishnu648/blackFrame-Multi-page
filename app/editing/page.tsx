@@ -20,7 +20,7 @@ export default function page() {
       </h1>
       </div>
 
-      <div className="flex flex-col gap-4 text-2xl md:text-3xl p-6" style={{fontFamily:'myCustomFont'}}>
+      <div className="flex flex-col gap-4 text-2xl md:text-3xl p-6" style={{fontFamily:'SfMedium'}}>
         <h2 className="underline">EDITING</h2>
       </div>
       </div>
