@@ -2,4 +2,9 @@
     font-family: 'MyCustomFont'; 
     src: url('/AmericanCaptain.otf') format('opentype');
   }
+
+  @font-face {
+    font-family: 'SfMedium'; 
+    src: url('/SfProTextMedium.otf') format('opentype');
+  }
   
